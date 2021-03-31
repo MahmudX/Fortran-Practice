@@ -1,12 +1,14 @@
 # Fortran
 
-Journey of learning never stops. Now I'm learning Fortran. This is my personal documentation. I'll modify it as I learn.
+The journey of learning never stops. Now I'm learning Fortran. This is my personal documentation. I'll modify it as I learn through.
 
-Detailed documentation can be found at [Fortran Lang](https://fortran-lang.org/learn/quickstart)
+- Detailed documentation can be found at [Fortran Lang](https://fortran-lang.org/learn/quickstart)
 
-The Pennsylvania State University Reference for [Fortran](http://www.personal.psu.edu/jhm/f90/fortran.html) can be found [Here](http://www.personal.psu.edu/jhm/f90/lectures/quickref.html).
+- The Pennsylvania State University Reference for [Fortran](http://www.personal.psu.edu/jhm/f90/fortran.html) can be found [Here](http://www.personal.psu.edu/jhm/f90/lectures/quickref.html).
 
-Also see the intel documentation [here](https://software.intel.com/content/www/us/en/develop/documentation/fortran-compiler-oneapi-dev-guide-and-reference/top.html).
+- See the intel documentation [here](https://software.intel.com/content/www/us/en/develop/documentation/fortran-compiler-oneapi-dev-guide-and-reference/top.html).
+
+- GNU compiler documentation can be found [here](https://gcc.gnu.org/onlinedocs/gfortran).
 
 ## First Program
 
@@ -51,7 +53,7 @@ All variable value should be declared explicitly. Fortran by default treats thei
 
 #### Floating Point
 
-*See float.f90 and kind_param.f90*
+_See `float.f90`, `kind_param.f90`_ and `tiny_and_huge.f90`
 
 The desired floating-point precision can be explicitly declared using a kind parameter. The iso_fortran_env intrinsic module provides kind parameters for the common 32bit and 64bit floating point types.
 
@@ -70,7 +72,6 @@ More - [What is Kind Parameter](https://stackoverflow.com/questions/838310/fortr
 ## Arrays
 
 Not like other modern programming languages, fortran array indexing starts from 1. Also if we try to assign value to an array directly, we have to assign for all index, but if we assign to a single index, we can do that too.
-
 
 ## Intrinsic Modules
 
