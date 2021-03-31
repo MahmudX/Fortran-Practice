@@ -1,13 +1,15 @@
 program variables
-    implicit none
-  
+    ! implicit none
+    
+
+
     integer :: amount
     real :: pi
     complex :: frequency
     character :: initial
     logical :: isOkay
 
-    integer :: age
+    integer :: Age
 
 
     print *, 'Enter your Age:'
